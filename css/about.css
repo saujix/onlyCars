@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font: bold;
+}
+
+h2{
+    text-decoration-line: underline;
+    font-size: 40px;
+    font: bold;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 40px;
+    font: bold;
+}
+
+.linked{
+    border: 1px solid;
+    width: 200px
+}
+
+.john{
+    border: 1px dashed;
+    display: flex;
+
+}
+.right{
+    width: 70%;
+    margin:20px;
+
+}
+
+.left{
+    text-align: left;
+    width: 30%;
+}
