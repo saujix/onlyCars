@@ -23,9 +23,7 @@ body{
     width:30px;
 }
 
-.carDesc{
-    padding: 30px;;
-}
+
 
 
 
@@ -71,7 +69,7 @@ body{
 
 .hero{
     position: relative;
-    height:92vh;
+    height:90vh;
     width:100%;
     left:0;
     top:35px;
@@ -96,7 +94,6 @@ body{
 
 .herorightColumn{
     width:70%;
-    height:calc(100%-20px);
     display:flex;
     overflow-y: hidden;
     overflow-x: scroll;
@@ -113,6 +110,7 @@ body{
 
 .clm:hover{
     width:80vw;
+    height:100vh;
 }
 .clm1:hover{
     width:35vw;
@@ -260,6 +258,7 @@ details{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .carsGrid div{
@@ -278,4 +277,24 @@ details{
 }
 button{
     box-shadow: none;
+}
+
+.gridImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.gridImg{
+    height:100%;
+}
+
+.carsGrid div{
+}
+.carsGrid div:hover{
+    position: relative;
+    left:-10%;
+    width:120%;
+    z-index: 99;
+    transition : all 1s ease;
 }
