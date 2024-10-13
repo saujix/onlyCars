@@ -69,7 +69,9 @@ html{
 .mainCars{
     width:100%;
     margin-top: 10vh;
+    display: grid;
 }
+
 
 
 .hero{
@@ -172,16 +174,15 @@ details{
 
 .bodyContainer{
     width:calc(100vw - 30px);
-    height:calc(100vh - 65px);
+    height:calc(100vh - 205px);
     margin:5px;
-    margin-top:60px;
     display: flex;
-    flex:1 1 300px;
     align-items: center;
 }
 
 .bodyLeftColumn{
     width:250px;
+    
 }
 .bodyRightColumn{
     width:calc(75%);
@@ -190,12 +191,11 @@ details{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 20px;
 }
 .leftContent{
     width:calc(100%-10px);
     height:100%;
-    
-    margin: 5px;
     display: flex;
     justify-content: center;
 }
@@ -219,24 +219,28 @@ details{
 }
 
 
-
+.boxWanted{
+    border:1px solid;
+}
 
 .search{
-    width:680px;
-    height:80%;
+    width:100%;
     z-index: 9;
-    margin: 0;
-    top:0;
-    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom:20px;
 }
 
 .search input{
-    height: 33px;
-    width:70%;
-    margin: 0;
+    height: 30px;
+    width:50%;
+
     background-color: rgb(221, 218, 218);
     border-radius: 10px;
     box-shadow: none;
+    z-index: 99;
 
 }
 
@@ -245,19 +249,12 @@ details{
     width:80px;
     z-index: 9;
     text-align: center;
-    margin: 0;
     background-color: black;
     color:white;
     border-radius: 10px;
 
 }
-.topSearch{
-    width:100%;
-    height:32px;
-    display: flex;
-    justify-content:center;
-    margin: 0;
-}
+
 
 .carsGrid{
     width:75vw;
@@ -283,6 +280,8 @@ details{
 
 .filterContent{
     font-size: 20px;
+    height:62vh;
+
 }
 button{
     box-shadow: none;
