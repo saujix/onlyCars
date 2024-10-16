@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../wellwellwell"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "onlyCars"
+	}
+}
