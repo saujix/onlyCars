@@ -43,6 +43,7 @@ html{
     /* border: 1px solid; */
 }
 
+
 .linksContainer{
     height:100%;
     position: absolute;
@@ -51,6 +52,7 @@ html{
     display: flex;
     align-items: center;
 }
+    
 
 .links{
     display: flex;
@@ -144,6 +146,8 @@ html{
     margin-top: 10px;
     transition: all 0.5s;
 }
+
+
 
 .heroleftColumn div .link{
     padding: 10px;
