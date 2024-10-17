@@ -188,7 +188,9 @@ details{
     height:100%;
     display: flex;
     justify-content: center;
-    border: 1px solid;
+   
+    flex-direction: column;
+    align-items: center;
     
 }
 .bodyRightColumn{
@@ -224,6 +226,7 @@ details{
     text-align: center;
     font-size: 30px;
     font-family: "Bebas Neue";
+
 }
 
 
@@ -268,7 +271,6 @@ details{
 .filterContent{
     font-size: 20px;
     height:62vh;
-
 }
 button{
     box-shadow: none;
@@ -282,9 +284,10 @@ button{
 }
 
 .gridImgContainer{
-    margin:20px;
+    margin: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .carsGrid div .gridImg{
@@ -297,7 +300,10 @@ button{
 .carsGrid div .gridImg:hover{
     width:100%;
     position: relative;
-    top:30px;
+    top:20px;
+}
+.carPrice{
+    color:green;
 }
 
 .trustheroContainer{
@@ -322,7 +328,11 @@ button{
     
 }
 
-
+.boxWanted div select{
+    background-color: transparent;
+    box-shadow: none;
+    border:1px solid;
+}
 
 .trustcolumn1{
     background-color: grey;
