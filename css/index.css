@@ -325,7 +325,7 @@ button{
     display: flex;
     border:1px solid;
     background-color: black;
-    
+    justify-content: center;  
 }
 
 .boxWanted div select{
@@ -565,5 +565,20 @@ strong{
     }
     .hero{
         margin:0;
+    }
+    .trustcolumn1,
+    .trustcolumn2,
+    .trustcolumn3,
+    .trustcolumn4{
+        width:100%;
+        height:calc(100vh - 30px);
+        border:0px solid;
+        opacity:1;
+    }
+    .trust{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height:auto;
     }
 }
