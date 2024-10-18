@@ -196,7 +196,6 @@ details{
 .bodyRightColumn{
     width:100%;
     right:10px;
-    height:100%;
     margin-left: 20px;
     overflow-y: scroll;
     display: flex;
@@ -226,6 +225,7 @@ details{
     text-align: center;
     font-size: 30px;
     font-family: "Bebas Neue";
+    
 
 }
 
@@ -313,6 +313,7 @@ button{
     margin-top:20px;
     display: flex;
     justify-content: center;
+    height: auto;
 }
 .trustHeading{
     width:100%;
@@ -438,13 +439,13 @@ button{
     justify-content: center;
 }
 .trusthero{
-    width:500px;
     height:100%;
+    width:300px;
+    text-align: center;
 }
 
 .block{
     position: relative;
-    height:40vh;
     width:100%;
 }
 
@@ -507,8 +508,8 @@ button{
 .b4{
     width:200px;
     position: absolute;
-    top:450px;
-    left:700px;
+    top:250px;
+    left:400px;
 }
 .b5{
     width:200px;
@@ -527,9 +528,15 @@ h3{
 
 strong{
     color:red;
+    font-size: 30px;
 }
 
 @media(max-width:600px){
+    body{
+        padding: 0;
+        margin: 0;
+        overflow-x: none;
+    }
     .herorightColumn{
         position: absolute;
         left:0;
@@ -565,13 +572,15 @@ strong{
     }
     .hero{
         margin:0;
+        background: url(/img/a1.png);
+        overflow-y: hidden;
     }
     .trustcolumn1,
     .trustcolumn2,
     .trustcolumn3,
     .trustcolumn4{
         width:100%;
-        height:calc(100vh - 30px);
+        height:107vh;
         border:0px solid;
         opacity:1;
     }
@@ -581,4 +590,78 @@ strong{
         flex-direction: column;
         height:auto;
     }
+    .herorightColumn{
+        display: none;
+        background: url(img/a1.png);
+        overflow-y: hidden;
+    }
+    .text{
+        padding:10px;
+    }
+    .bodyContainer{
+        width:100%;
+
+        margin: 0;
+        display: flex;
+        border:1px solid;
+        flex-direction: column;
+        left:0;
+    }
+    .filterContent{
+        display:flex;
+        border:1px solid;
+        font-size: 10px;
+        height: auto;
+        width:100vw;
+        overflow-x: scroll;
+        left:0;
+        position: absolute;
+        left:0;
+    }
+    .trusthero{
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .bodyRightColumn{
+        position: relative;
+        margin: 0;
+        height:auto;
+        width:100%;
+        padding:0;
+        left:0;
+    }
+    .gridImgContainer{
+        padding: 0;
+        margin:0;
+    }
+    .carsGrid{
+        padding: 0;
+        margin: 0;
+        height:auto;
+    }
+    .carsGrid div .gridImg{
+        width:100%;
+        position:relative;
+        top:0;
+    }
+    .carsGrid div .gridImg:hover{
+        width:100%;
+        position: relative;
+        top:0;
+    }
+    .filterTitle{
+        text-align: center;
+        width:100vw;
+    }
+    .filter{
+        position: absolute;
+        left:0;
+        background-color: rebeccapurple;
+        margin: 0px;
+        height:auto;
+    }
+    .bodyLeftColumn{
+        height:420px;
+    }
+
 }
