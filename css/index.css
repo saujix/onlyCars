@@ -633,17 +633,20 @@ strong{
         margin: 0;
         height:auto;
         width:100%;
-        padding:0;
+        padding: 0;
         left:0;
+        
     }
     .gridImgContainer{
         padding: 0;
         margin:0;
     }
     .carsGrid{
-        padding: 0;
+        padding: 20px;
         margin: 0;
         height:auto;
+        gap:20px;
+        height:290vh;
     }
     .carsGrid div .gridImg{
         width:100%;
@@ -662,13 +665,14 @@ strong{
     .filter{
         position: absolute;
         left:0;
-        background-color: rebeccapurple;
         margin: 0px;
         height:auto;
     }
     .bodyLeftColumn{
         height:420px;
     }
+
+    
     .backgroundVideoForMobile{
         position: absolute;
         width:100%;
