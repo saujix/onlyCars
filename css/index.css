@@ -110,6 +110,7 @@ body{
     justify-content: center;
 }
 
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -125,7 +126,6 @@ body{
 
 .clm:hover{
     width:80vw;
-    height:100vh;
 }
 .clm1:hover{
     width:35vw;
@@ -521,6 +521,7 @@ button{
     position: absolute;
     width:100%;
     opacity: 0;
+    z-index: -1;
 }
 
 /* p{
@@ -571,6 +572,7 @@ strong{
         height:100%;
         margin:0;
         padding:0;
+        backdrop-filter: blur(15px);
     }
     .trustheroContainer{
         overflow-x: hidden;
@@ -671,5 +673,9 @@ strong{
         position: absolute;
         width:100%;
         opacity: 1;
+        top:0;
+        margin:0;
+        padding: 0;
+        z-index: 1;
     }
 }
