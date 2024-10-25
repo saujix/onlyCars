@@ -579,8 +579,8 @@ strong{
     }
     .hero{
         margin:0;
-        background: url(video/a1.mp4);
         overflow-y: hidden;
+        overflow-x: hidden;
     }
     .trustcolumn1,
     .trustcolumn2,
@@ -681,5 +681,8 @@ strong{
         margin:0;
         padding: 0;
         z-index: 1;
+    }
+    .backgroundVideoForMobile img{
+        width:140vw;
     }
 }
