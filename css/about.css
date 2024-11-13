@@ -152,7 +152,10 @@ h3{
 
     .john{
         display: flex;
+        flex-direction: column;
     }
+
+    .john img{width: 100vw;}
     
     .right{
         text-align: right;
