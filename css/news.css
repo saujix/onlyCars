@@ -6,6 +6,7 @@ body{
     overflow-x: hidden;
     display: flex;
     justify-content: center;
+    font-family: "Bebas Neue";
 
 }
 .navTitle{
@@ -220,4 +221,23 @@ body{
     border:1px solid;
     display: flex;
     align-items: center;
+}
+.bottom{
+    height:50%;
+    width:100%;
+    background-color: blue;
+}
+.top{
+    height:50%;
+    width:100%;
+    background-color: pink;
+}
+
+.tBox{
+    border:1px solid;   
+    height:calc(100% - 20px);
+    width:calc(100% - 20px);
+    margin: 10px;
+    background-color: green;
+
 }
