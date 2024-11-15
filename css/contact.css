@@ -1,7 +1,9 @@
+body{
+  background: linear-gradient(45deg, white,lightblue);
+}
+
 .contact{
   margin:20px 300px;
-  background-color: #ffffff;
-    border-style: solid #ffffff;
     background-repeat: no-repeat;
     font-family:"Bebas Neue";
     margin-left:450px;
@@ -14,7 +16,6 @@
     border:solid #000000;
     margin: 10px;
     padding: 10px;
-    background-color: #ffffff;
     width:30%;
     font-family:"Bebas Neue";
   }
@@ -59,8 +60,8 @@
   top:0.5px;
   display: flex;
   align-items: center;
-font-family:"Bebas Neue";
-font-color: #000000;
+  font-family:"Bebas Neue";
+  color: #000000;
 }
 .links{
   display: flex;
@@ -71,7 +72,7 @@ font-color: #000000;
   padding:10px;
 }
 #carimage{
- border:solid #ffffff;
+
   object-fit: contain;
 margin-left:100px;
 width:1000px;
@@ -86,8 +87,6 @@ margin-left:522px;
 @media(max-width:600px){
   .contact{
     margin:2px;
-    background-color: #ffffff;
-    border-style: solid #ffffff;
     background-repeat: no-repeat;
     font-family:"Bebas Neue";
     margin-top:1rem;
@@ -99,8 +98,7 @@ margin-left:522px;
   form{
     border:solid #000000;
     margin: 5px;
-    padding: 2px;
-    background-color: #ffffff;
+    padding: 2px; 
     width:90%;
     height: 70%;
     font-family:"Bebas Neue";

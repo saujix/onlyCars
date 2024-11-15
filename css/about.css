@@ -7,6 +7,7 @@
 /*Set the whole body font*/
 body{                           
     font-family: "Bebas Neue"; 
+    background: linear-gradient(45deg, white,lightblue);
 }
 /*Sets the OnlyCars font title and position in the nav bar*/
 .navTitle{

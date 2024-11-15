@@ -1,10 +1,12 @@
 html{
     overflow-x: hidden;
     scroll-behavior: smooth;
+    background: linear-gradient(45deg, white,lightblue);
 }
 
 body{
     font-family: "Bebas Neue";
+    background: linear-gradient(45deg, white,lightblue);
 
 }
 
