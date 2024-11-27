@@ -84,6 +84,18 @@ width:733px;
 margin-top:-260px;
 margin-left:522px;
 }
+
+
+.container{
+  height: auto;
+  width:100%;
+  border: 1px solid;
+  background-color: orange;
+}
+
+.container1_2{
+  display: flex;
+}
 @media(max-width:600px){
   .contact{
     margin:2px;
