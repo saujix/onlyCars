@@ -109,6 +109,116 @@
       "distance_travelled": 15000,
       "company": "Kia",
       "color": "Red"
+    },
+    {
+      "name": "Chevrolet Camaro",
+      "price": 35000,
+      "ownership": "Owned",
+      "type": "Coupe",
+      "fuel_type": "Petrol",
+      "transmission_type": "Automatic",
+      "distance_travelled": 7000,
+      "company": "Chevrolet",
+      "color": "Blue"
+    },
+    {
+      "name": "Tesla Model 3",
+      "price": 40000,
+      "ownership": "Leased",
+      "type": "Sedan",
+      "fuel_type": "Electric",
+      "transmission_type": "Automatic",
+      "distance_travelled": 12000,
+      "company": "Tesla",
+      "color": "Black"
+    },
+    {
+      "name": "BMW M3",
+      "price": 60000,
+      "ownership": "Owned",
+      "type": "Sedan",
+      "fuel_type": "Petrol",
+      "transmission_type": "Manual",
+      "distance_travelled": 8000,
+      "company": "BMW",
+      "color": "White"
+    },
+    {
+      "name": "Audi A4",
+      "price": 35000,
+      "ownership": "Leased",
+      "type": "Sedan",
+      "fuel_type": "Diesel",
+      "transmission_type": "Automatic",
+      "distance_travelled": 10000,
+      "company": "Audi",
+      "color": "Silver"
+    },
+    {
+      "name": "Honda Civic",
+      "price": 22000,
+      "ownership": "Owned",
+      "type": "Sedan",
+      "fuel_type": "Petrol",
+      "transmission_type": "Manual",
+      "distance_travelled": 15000,
+      "company": "Honda",
+      "color": "Green"
+    },
+    {
+      "name": "Mercedes-Benz C-Class",
+      "price": 45000,
+      "ownership": "Leased",
+      "type": "Sedan",
+      "fuel_type": "Petrol",
+      "transmission_type": "Automatic",
+      "distance_travelled": 5000,
+      "company": "Mercedes-Benz",
+      "color": "Gray"
+    },
+    {
+      "name": "Ford Focus",
+      "price": 20000,
+      "ownership": "Owned",
+      "type": "Hatchback",
+      "fuel_type": "Petrol",
+      "transmission_type": "Manual",
+      "distance_travelled": 25000,
+      "company": "Ford",
+      "color": "Yellow"
+    },
+    {
+      "name": "Nissan 370Z",
+      "price": 35000,
+      "ownership": "Owned",
+      "type": "Coupe",
+      "fuel_type": "Petrol",
+      "transmission_type": "Automatic",
+      "distance_travelled": 12000,
+      "company": "Nissan",
+      "color": "Orange"
+    },
+    {
+      "name": "Subaru Impreza",
+      "price": 25000,
+      "ownership": "Leased",
+      "type": "Sedan",
+      "fuel_type": "Diesel",
+      "transmission_type": "Manual",
+      "distance_travelled": 9000,
+      "company": "Subaru",
+      "color": "Purple"
+    },
+    {
+      "name": "Mazda MX-5",
+      "price": 28000,
+      "ownership": "Owned",
+      "type": "Convertible",
+      "fuel_type": "Petrol",
+      "transmission_type": "Automatic",
+      "distance_travelled": 3000,
+      "company": "Mazda",
+      "color": "Red"
     }
   ]
 }
