@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, white, black 100%);
+  background-image: linear-gradient(to right, white,black 100%);
 }
 
 .contact {
@@ -13,7 +13,7 @@ body {
   text-shadow: 2px 2px 5px white;
 }
 
-form {
+#newsletterform {
   border: solid #000000;
   margin-left: 68%;
   padding: 10px;
@@ -22,11 +22,26 @@ form {
   font-family: "Bebas Neue";
   box-shadow: 2px 2px 5px white;
 }
-
+#problemform {
+  border: solid #000000;
+  margin-right: 68%;
+  padding: 10px;
+  background-color: #000000;
+  width: 50%;
+  font-family: "Bebas Neue";
+  box-shadow: 2px 2px 5px white;
+}
+#brokencar{
+  margin-top: -400px;
+  width: 50%;
+  margin-left: 49.3%;
+  position: absolute;
+}
 .para1 {
   font-family: "Bebas Neue";
   background-color: #ffffff;
   width: 65%;
+  margin-top: 5px;
   font-size: 1.25rem;
   position: absolute;
   color: #000000;
