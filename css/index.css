@@ -202,7 +202,6 @@ details{
     overflow-y: scroll;
     display: flex;
     justify-content: center;
-    border:1px solid;
 }
 .leftContent{
     width:calc(100%-10px);
@@ -633,12 +632,13 @@ strong{
     .carsGrid{
         padding: 0px;
         margin: 0;
-        height:auto;
+        border:none;
     }
     .carsGrid div .gridImg{
         width:100%;
         position:relative;
         top:0;
+        border:none;
     }
     .carsGrid div .gridImg:hover{
         width:100%;
