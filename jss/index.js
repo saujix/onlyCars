@@ -8,3 +8,6 @@ document.querySelectorAll('.videoBlock').forEach(function(event){
             document.querySelector(`#${event.id}`).pause();
         })
 })
+
+let x = 0;
+console.log(x);

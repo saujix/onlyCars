@@ -118,22 +118,6 @@ form {
   margin-left: 522px;
 }
 
-<<<<<<< HEAD
-
-.container{
-  height: auto;
-  width:100%;
-  border: 1px solid;
-  background-color: orange;
-}
-
-.container1_2{
-  display: flex;
-}
-@media(max-width:600px){
-  .contact{
-    margin:2px;
-=======
 a {
   color: #000000;
 }
@@ -146,7 +130,6 @@ a:hover {
 @media (max-width: 600px) {
   .contact {
     margin: 2px;
->>>>>>> f745e1f973f45167d9391b16d9800654968aebee
     background-repeat: no-repeat;
     font-family: "Bebas Neue";
     margin-top: 1rem;
