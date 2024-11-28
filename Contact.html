@@ -56,34 +56,38 @@
       <form id="problemform">
         <div class="details">
           <label for="First_Name">First name</label>
-          <input type="text" id="First_Name" name="First_Name" placeholder="First name" />
+          <input type="text" id="First_Name" name="First_Name" placeholder="First name" required/>
         </div>
 
         <div class="details">
           <label for="Last_Name">Last name</label>
-          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name" />
+          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name" required/>
         </div>
 
         <div class="details">
           <label for="email">E-mail address</label>
-          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com" />
+          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com" required/>
         </div>
 
         <div class="details">
-          <label for="phonenumber">Phone number</label>
-          <input type="number" id="phonenumber" placeholder="12346789" />
+          <label for="TypeOfProblem">Problem type</label>
+          <select name="problemtype" id="problemtype">
+            <option value="general">General</option>
+            <option value="feedback">Feedback</option>
+            <option value="Technical support">Technical support</option>
+          </select>
         </div>
         <div class="details">
-          <label for="message">Please tell us your problem</label>
-          <input type="text" id="message" placeholder="I've been having a problem with..." />
+          <label for="message">Please tell us your problem</label><br>
+          <textarea id="problemMessage" name="problemMessage" rows="4" cols="60" required>
+          I've been having a problem with...
+          </textarea>
         </div>
-
         <div>
           <input type="submit" id="submit" placeholder="Submit" />
         </div>
       </form>
     </div>
-
     <h2 class="contact">Sign up for our newsletter</h2>
     <div id="formpara">
       <p class="para1">
@@ -100,17 +104,17 @@
       <form id="newsletterform">
         <div class="details">
           <label for="First_Name">First name</label>
-          <input type="text" id="First_Name" name="First_Name" placeholder="First name" />
+          <input type="text" id="First_Name" name="First_Name" placeholder="First name" required/>
         </div>
 
         <div class="details">
           <label for="Last_Name">Last name</label>
-          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name" />
+          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name" required/>
         </div>
 
         <div class="details">
           <label for="email">E-mail address</label>
-          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com" />
+          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com" required/>
         </div>
 
         <div class="details">
