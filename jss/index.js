@@ -9,5 +9,32 @@ document.querySelectorAll('.videoBlock').forEach(function(event){
         })
 })
 
-let x = 0;
-console.log(x);
+
+// search
+
+function filter(search){
+    fetch('cars.json')
+    .then(response => response.json())
+    .then(data => {
+        document.querySelector(".carsGrid").innerHTML= "";
+        for (let i = 0 ; i < data.cars.length ; i++)
+            {
+            if(((data.cars[i].name)).toLowerCase().includes(search)){
+                
+                document.querySelector(".carsGrid").innerHTML +=
+            `
+            <div>
+                <div class="gridImgContainer">
+                    <img class="gridImg" src="img/gridesCar/${i+1}.jpg" alt="car image in grid">
+                    <div class="carName">${data.cars[i].name} Cruiser</div>
+                    <div class="carPrice">$${data.cars[i].price}</div>
+                </div>
+            </div>
+            `
+            }  
+        }
+        
+    });
+}
+
+
