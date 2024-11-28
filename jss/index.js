@@ -25,7 +25,9 @@ function filter(search){
             `
             <div>
                 <div class="gridImgContainer">
-                    <img class="gridImg" src="img/gridesCar/${i+1}.jpg" alt="car image in grid">
+                    <div class="imageContainer">
+                        <img class="gridImg" src="img/gridesCar/${i+1}.jpg" alt="car image in grid">
+                    </div>
                     <div class="carName">${data.cars[i].name} Cruiser</div>
                     <div class="carPrice">$${data.cars[i].price}</div>
                 </div>
@@ -36,5 +38,7 @@ function filter(search){
         
     });
 }
+
+
 
 
