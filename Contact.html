@@ -53,20 +53,20 @@
       <img id="brokencar" src="img/pexels-mart-production-8869195-removebg-preview.png" alt="Broken down car">
     </div>
     <div>
-      <form id="problemform">
+      <form id="problemform" name="problemform" onsubmit="return validateForm()" method="post">
         <div class="details">
           <label for="First_Name">First name</label>
-          <input type="text" id="First_Name" name="First_Name" placeholder="First name" required/>
+          <input type="text" id="First_Name" name="First_Name" placeholder="First name" />
         </div>
 
         <div class="details">
           <label for="Last_Name">Last name</label>
-          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name" required/>
+          <input type="text" id="Last_Name" name="Last_Name" placeholder="Last name"/>
         </div>
 
         <div class="details">
           <label for="email">E-mail address</label>
-          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com" required/>
+          <input type="email" id="email" name="email" placeholder="CarLover@onlycars.com"/>
         </div>
 
         <div class="details">
@@ -79,7 +79,7 @@
         </div>
         <div class="details">
           <label for="message">Please tell us your problem</label><br>
-          <textarea id="problemMessage" name="problemMessage" rows="4" cols="60" required>
+          <textarea id="problemMessage" name="problemMessage" rows="4" cols="60">
           I've been having a problem with...
           </textarea>
         </div>
@@ -140,6 +140,7 @@
     </div>
 
     <hr>
+    <script src="js/contact.js"></script>
   </body>
 
   <footer>
