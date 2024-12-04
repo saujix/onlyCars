@@ -35,9 +35,14 @@ function filter(search){
             `
             }  
         }
+
+        if(document.querySelector(".carsGrid").innerHTML== ""){
+            document.querySelector(".carsGrid").innerHTML= "<h1>No result found..</h1>"
+        }
         
     });
 }
+
 
 
 

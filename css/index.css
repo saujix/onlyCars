@@ -201,8 +201,7 @@ details{
     display: flex;
     justify-content: center;
     position: relative;
-    background-color:rgb(148, 82, 82);
-    color:white;
+    border:1px solid black;
 }
 .leftContent{
     width:100%;
@@ -279,7 +278,6 @@ button{
 }
 .gridImg{
     height:100%;
-    background-color: green;
     scroll-snap-align: start;
 }
 
@@ -534,9 +532,6 @@ strong{
     overflow-y: hidden;
     overflow-x: hidden;
 }
-.gridImgContainer{
-    border:1px solid;
-}
 
 
 @media(max-width:600px){
@@ -636,6 +631,8 @@ strong{
         border:1px solid;
         left:0;
         height:auto;
+        border:1px solid;
+        scroll-snap-align: start;
     }
 
     .bodyRightColumn{
@@ -653,7 +650,8 @@ strong{
         display: flex;
         align-items: center;
         flex-direction: column;
-
+        overflow:auto;
+        scroll-snap-type: y mandatory;
 
     }
     .carsGrid div .gridImg{
@@ -697,7 +695,6 @@ strong{
     }
     .gridImg{
         height:100%;
-        background-color: green;
         scroll-snap-align: start;
     }
     .imageContainer{
