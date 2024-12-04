@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-
-
-
-
-body{
-  background: linear-gradient(45deg, white,lightblue);
-=======
 body {
   background-image: linear-gradient(to right, white,black 100%);
->>>>>>> cbfd7687874dbb10a7f47fb6e1bccecba8477b53
 }
 
 .contact {
